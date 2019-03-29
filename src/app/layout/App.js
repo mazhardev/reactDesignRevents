@@ -1,8 +1,16 @@
 import React, { Component } from "react";
 import Home from "../../features/home/Home";
+import { Route, Switch } from "react-router-dom";
 class App extends Component {
   render() {
-    return <Home />;
+    return (
+      <div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
+        
+      </div>
+    );
   }
 }
 
