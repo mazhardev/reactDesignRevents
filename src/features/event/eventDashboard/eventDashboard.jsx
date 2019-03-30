@@ -1,11 +1,13 @@
-import React, { Component } from 'react'
-
-export default class eventDashboard extends Component {
+import React, { Component } from "react";
+import { Grid } from "semantic-ui-react";
+class eventDashboard extends Component {
   render() {
     return (
-      <div>
-        
-      </div>
-    )
+      <Grid>
+        <Grid.Column width={10}>Mazhar </Grid.Column>
+        <Grid.Column width={6}>Chaudhry</Grid.Column>
+      </Grid>
+    );
   }
 }
+export default eventDashboard;
