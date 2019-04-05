@@ -9,7 +9,7 @@ class eventDashboard extends Component {
       <Grid>
         <Grid.Column width={10}><EventList/><EventAttendee/> </Grid.Column>
         <Grid.Column width={6}><Activities/></Grid.Column>
-      </Grid>
+        </Grid>
     );
   }
 }

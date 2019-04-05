@@ -20,7 +20,7 @@ class App extends Component {
                 <Switch>
                   <Route path="/events" component={eventDashboard} />
                 </Switch>
-              </Container>
+              </Container>z
             </div>
           )}
         />
